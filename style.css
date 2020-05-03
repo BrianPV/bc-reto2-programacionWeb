@@ -1,0 +1,529 @@
+/************  
+
+HEADER
+
+**************/
+header{
+    width: 100%; /* Ancho de 100 */
+    overflow: hidden;
+}
+
+.headerCSS{
+    width: 90%; /* Ancho de 90 dentro del header*/
+    margin: auto; /* Margin auto*/
+    overflow: auto; 
+}
+
+.headerCSS .logo{
+    float: left; /* mantener logo a la izquierda */
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+.headerCSS nav{
+    float: right; /* mandar la lista a la derecha*/
+}
+
+.headerCSS li{
+    display: inline-block; /* Poner la lista en horizontal*/
+    padding: 10PX 20px;
+    font-family: 'Raleway', sans-serif; /* Font */
+    overflow: hidden; /* Esconder los puntos*/
+    text-decoration: none;
+}
+
+/************  
+
+PRIMERA SECCION Y GRID
+
+**************/
+
+.container{
+    width: 90%;
+    margin:auto;
+}
+
+.container > div{
+    display: block;
+    padding: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.container .text1{
+    padding-top: 100px;
+}
+.container b{
+    font-family: 'Raleway', sans-serif; /* Font */
+    font-size: 33px;
+}
+
+.container P{
+    font-family: 'Open sans', sans-serif; /* Font */
+    font-size: 15px;
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+}
+
+.container form input{
+    width: 50%;
+    padding: 12px 20px;
+    border: 1px #000 solid;
+    border-radius: 3px;
+    
+}
+
+.container form input:last-child{
+    width: 30%;
+    color: #fff;
+    background-color: #3065F8;
+    margin-left: 22px;
+    cursor: pointer;
+    border: 1px #fff solid;
+    box-shadow: 4px 6px #F6F6FE;
+}
+
+
+/************  
+
+SEGUNDA SECCION
+
+**************/
+
+.bg-curve{
+    background-image: url(images/bg-curve-desktop.svg);
+    height: 100px;
+    width: 100%;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container2{
+    width: 100%;
+    margin:auto;
+    background-color: #f8f8fe;
+}
+
+.container2 > div{
+    display: block;
+    padding: 20px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.container2 .text2{
+    margin-left:65px;
+}
+
+.container2 .text2 h2{
+    font-family: 'Raleway', sans-serif; /* Font */
+    font-size: 33px;
+}
+
+.container2 .text2 p{
+    font-family: 'Open sans', sans-serif; /* Font */
+    font-size: 15px;
+}
+
+.container2 .text2 .card p{
+    padding-left: 30px;
+    padding-right: 25px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.container2 .text2 a{
+    font-family: 'Raleway', sans-serif; /* Font */
+    color: #3C9F8F;
+}
+
+.container2 .image2{
+    width: 90%;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.container2 .iconArrow{
+    width: 20px;
+    height: 20px;
+}
+
+.container2 .card{
+    width: 335px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px 1px #BFBFBF;
+    border-radius: 5px;
+
+}
+
+.container2 .card .iconQuote{
+    width: 15px;
+    height: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.container2 .text2 .card .testimonial .rounded-image{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.container2 .text2 .card .testimonial .nombre{
+    display: inline-block;
+}
+
+.container2 .text2 .card .testimonial .nombre b{    
+    font-family: 'Raleway', sans-serif; /* Font */
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.container2 .text2 .card .testimonial .nombre p{    
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+
+/************  
+
+TERCERA SECCION
+
+**************/
+
+.tercera-seccion{
+    width: 100%;
+    background-color: #585989;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tercera-seccion .container .texto3{
+    padding-top: 40px;
+}
+
+.tercera-seccion .container .texto3 b{
+    font-family: 'Raleway', sans-serif; /* Font */
+    color: #fff;
+    font-size: 33px;
+ 
+}
+
+.tercera-seccion .container .texto3 p{
+    font-family: 'Open sans', sans-serif; /* Font */
+    color: #fff;
+    font-size: 14px;
+}
+
+.tercera-seccion .container .formulario form{
+    margin-top: 30px;
+}
+
+.tercera-seccion .container .formulario form input:first-child{
+    width: 70%;
+    padding: 12px 20px;
+    border: 1px #585989 solid;
+    border-radius: 3px;
+    box-shadow: 9px 9px 5px -9px rgba(0,0,0,0.66);
+}
+
+.tercera-seccion .container .formulario form input:last-child{
+    width: 209px;
+    color: #fff;
+    background-color: #3065F8;
+    cursor: pointer;
+    border: 1px #585989 solid;
+    box-shadow: 9px 9px 5px -9px rgba(0,0,0,0.66);
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+/************  
+
+FOOTER SECCION
+
+**************/
+
+footer{
+    width: 100%;
+    background-color: #070439;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer .logoFooter{
+    width: 166px;
+    height: 49px;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+
+.container3{
+    width: 90%;
+    margin:auto;
+}
+
+.container3 > div{
+    display: block;
+    padding: 20px;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+footer li{
+    font-family: 'Raleway', sans-serif; /* Font */
+    overflow: hidden;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer .iconsFooter > div{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+footer .iconsFooter a,
+footer .container3  div a{
+    font-family: 'Raleway', sans-serif; /* Font */
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+}
+
+footer .iconsFooter span{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+footer .container3 .iconsSocial div {
+    float: left;
+    margin: 5px;
+}
+
+
+
+/************  
+
+RESPONSIVE
+
+**************/
+
+@media only screen and (max-width: 600px) {
+
+    /************  
+
+    HEADER
+
+    **************/
+
+    .headerCSS{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 1fr;
+    }
+
+    .headerCSS ul{
+        list-style-type: none;
+        padding-top: 10px;
+    }
+
+
+    .headerCSS .logo{
+        margin-left:0px;
+        margin-top: 25px;
+    }
+    .headerCSS img{
+        width: 100%;
+    }
+
+
+
+    .headerCSS nav ul li{
+        padding: 5px 10px;
+    }
+
+    /************  
+
+    PRIMER SECCION
+
+    **************/
+
+
+    .container{
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        text-align: center;
+    }
+
+    .container form input{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .container form input:last-child{   
+        width: 100%;
+        margin-bottom: 20px ;
+        margin-left: 0px;
+
+    }
+
+    .container .text1{
+        padding-top: 0px;
+    }
+
+    .illustra1{
+        grid-row: 1 / 1;
+    }
+
+     /************  
+
+    SEGUNDA SECCION
+
+    **************/
+
+    .container2{
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .container2 .text2 h2{
+        text-align: center;
+    }
+
+    .container2 .text2 p{
+        text-align: left;
+    }
+    .container2 .text2{
+        margin-left: 0px;
+    }
+
+    .container2 .card{
+        width: 100%;
+    }
+
+    .container2 .text2 h2 {
+        font-size: 30px;
+    }
+
+
+    
+    /************  
+
+    FOOTER SECCION
+
+    **************/
+
+    .container3{
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .container3 ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer .logoFooter{
+        margin-left: 40px;
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 375px) {
+
+    /************  
+
+    HEADER
+
+    **************/
+
+    .headerCSS{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 1fr;
+    }
+
+    .headerCSS img{
+        width: 80px;
+    }
+
+   
+
+    .headerCSS nav ul li{
+        padding: 0px 0px;
+        font-size: 1rem;
+    }
+
+    /************  
+
+    PRIMER SECCION
+
+    **************/
+
+
+    .container{
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        text-align: center;
+    }
+
+    .container form input{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .container form input:last-child{   
+        width: 100%;
+        margin-bottom: 20px ;
+        margin-left: 0px;
+
+    }
+
+    /************  
+
+    SEGUNDA SECCION
+
+    **************/
+
+    .container2 .card{
+        height: 250px;
+    }
+
+
+    
+    /************  
+
+    TERCERA SECCION
+
+    **************/
+    .tercera-seccion .container .texto3 p{
+        text-align: center;
+    }
+  }
